@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Success | ミライ・Fi</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
+
+
+  <main>
+    <h1>Payment Successful!</h1>
+    <p>Thank you for your purchase. Below is your receipt:</p>
+
+    <div id="receipt-container">
+      <h2>Order Receipt</h2>
+      <p><strong>Name:</strong> <span id="receipt-name"></span></p>
+      <p><strong>Email:</strong> <span id="receipt-email"></span></p>
+      <p><strong>Payment Method:</strong> <span id="receipt-payment-method"></span></p>
+      <p><strong>Order Date:</strong> <span id="receipt-date"></span></p>
+      <h3>Items Purchased:</h3>
+      <ul id="receipt-items"></ul>
+      <h3>Total Amount: <span id="receipt-total"></span></h3>
+    </div>
+
+    <button onclick="window.print()">Print Receipt</button>
+    <a href="index.html"><button>Go Back</button></a>
+  </main>
+
+  <script src="js/success.js"></script>
+</body>
+</html>

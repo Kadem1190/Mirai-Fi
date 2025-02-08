@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Cart | ミライ・Fi</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="top-bar">
+    <div class="account-links">
+      <a href="#">Sign In</a> | <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </div>
+  </div>
+  <nav class="nav-bar">
+    <div class="logo">ミライ・Fi </div>
+    <div class="menu-toggle">
+     <div></div><br>
+     <div></div><br>
+     <div></div><br>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#" class="under-construction-item">Pre-Orders</a></li> <!-- construction -->
+      <li><a href="#" class="under-construction-item">Categories</a></li><!-- construction -->
+      <li><a href="#" class="under-construction-item">Brands</a></li><!-- construction -->
+      <li><a href="#" class="under-construction-item">Blog</a></li><!-- construction -->
+    </ul>
+  </nav>    
+
+    <div class="empty-div"></div>
+    <main>
+        <h1>Your Cart</h1>
+        <div id="cart-container">
+            <p>Your cart is empty.</p>
+        </div>
+        <h2>Total: <span id="total-price">$0.00</span></h2>
+        <button id="checkout-btn" style="display: none;">Proceed to Payment</button>
+    </main>
+
+    <script src="js/cart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
